@@ -5,9 +5,7 @@
 
 Select * from city where Population>100000 AND CountryCode='USA';
 
-##Query the NAME field for all American cities in the CITY table with populations larger than 120000. The CountryCode for America is USA".
-
-The CITY table is described as follows:
+##Query the NAME field for all American cities in the CITY table with populations larger than 120000. The CountryCode for America is USA".The CITY table is described as follows:
 ![sql2](https://github.com/user-attachments/assets/72248cfc-1ec0-45be-9c67-fc4c2c5bfc2e)
 
 
