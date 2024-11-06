@@ -1,2 +1,6 @@
 "## Query all columns for all American cities in the CITY table with populations larger than 100000. The CountryCode for America is USA".
-                                 select * from city where Population>100000 and CountryCode='USA';
+                   select * from city where Population>100000 and CountryCode='USA'; 
+https://github.com/SHASHIKIRAN619/SQL-Hacker-Rank-Problems/issues/1#issue-2637228299
+
+
+
