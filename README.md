@@ -1,3 +1,3 @@
 # SQL-Hacker-Rank-Problems
 
-https://github.com/SHASHIKIRAN619/SQL-Hacker-Rank-Problems/issues/1#issue-2637228299
+![sql1](https://github.com/user-attachments/assets/58b2ed99-6cd6-4423-99ea-ee64ea62bc40)
