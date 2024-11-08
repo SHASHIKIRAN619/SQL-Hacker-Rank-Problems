@@ -18,3 +18,13 @@
 
 **Select * from CITY;**
 
+## Query all columns for a city in CITY with the ID 1661.
+
+![sql4](https://github.com/user-attachments/assets/64647ffa-02eb-4be2-965f-b4d6f051873f)
+
+**Select * from CITY where ID=1661;**
+
+## Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.
+
+
+
