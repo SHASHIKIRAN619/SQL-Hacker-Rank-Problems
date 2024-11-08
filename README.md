@@ -26,5 +26,26 @@
 
 ## Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.
 
+![SQL5](https://github.com/user-attachments/assets/1bb206ac-8ed5-4961-a5e7-20952c1b9bbf)
 
+**SELECT * FROM CITY WHERE COUNTRYCODE='JPN';**
+
+ ## Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN.
+
+![SQL6](https://github.com/user-attachments/assets/f0c4c34b-e81c-49da-ae26-ac06c8fd001b)
+
+**SELECT NAME FROM CITY WHERE COUNTRYCODE='JPN';**
+
+ ## Query a list of CITY and STATE from the STATION table.
+
+ ![SQL7](https://github.com/user-attachments/assets/42b3475d-c5fa-4b49-947b-3fbf0b6a186e)
+
+ **SELECT CITY,STATE FROM STATION;**
+
+ ## Query a list of CITY names from STATION for cities that have an even ID number. Print the results in any order, but exclude duplicates from the answer.
+
+ ![SQL8](https://github.com/user-attachments/assets/9df5934a-f0a2-4a0f-bad4-4f0d5b391b5b)
+
+ **SELECT DISTINCT CITY FROM STATION WHERE MOD(ID,2)=0;**
+ 
 
