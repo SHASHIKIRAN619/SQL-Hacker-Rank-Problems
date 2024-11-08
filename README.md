@@ -46,6 +46,6 @@
 
  ![SQL8](https://github.com/user-attachments/assets/9df5934a-f0a2-4a0f-bad4-4f0d5b391b5b)
 
- **SELECT DISTINCT CITY FROM STATION WHERE MOD(ID,2)=0;**
+ **SELECT  DISTINCT  CITY  FROM  STATION  WHERE  MOD(ID,2)=0;**
  
 
