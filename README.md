@@ -47,5 +47,17 @@
  ![SQL8](https://github.com/user-attachments/assets/9df5934a-f0a2-4a0f-bad4-4f0d5b391b5b)
 
  **SELECT  DISTINCT  CITY  FROM  STATION  WHERE  MOD(ID,2)=0;**
- 
+
+ ## Find the difference between the total number of CITY entries in the table and the number of distinct CITY entries in the table.
+
+ ![SQL9](https://github.com/user-attachments/assets/162b6f2c-adcb-4e96-99b2-a8ccdc0cefe8)
+
+ **SELECT COUNT(CITY)-COUNT(DISTINCT(CITY))FROM STATION;**
+
+ ## Query the two cities in STATION with the shortest and longest CITY names, as well as their respective lengths (i.e.: number of characters in the name). If there is more than one smallest or largest city, choose the one that comes first when ordered alphabetically.
+
+ ![sql10](https://github.com/user-attachments/assets/07852913-83ce-49c0-a405-875ebbdead08)
+
+ **SELECT CITY,LENGTH(CITY) FROM STATION ORDER BY LENGTH(CITY) ASC,CITY LIMIT 1
+ SELECT CITY,LENGTH(CITY) FROM STATION ORDER BY LENGTH(CITY) DESC,CITY LIMIT 1**
 
