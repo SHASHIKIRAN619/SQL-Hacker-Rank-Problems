@@ -12,3 +12,5 @@
 
 **Select name from city where Population>120000 and Countrycode='USA';**
 
+![sql3](https://github.com/user-attachments/assets/490d8a49-ab23-4234-bf1c-5a37008137c8)
+
