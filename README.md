@@ -62,3 +62,22 @@
  
  **SELECT CITY,LENGTH(CITY) FROM STATION ORDER BY LENGTH(CITY) DESC,CITY LIMIT 1**
 
+ ## Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
+
+   ![SQL11](https://github.com/user-attachments/assets/de0381c8-39ef-4d92-a67a-2d790e5886da)
+
+ **SELECT DISTINCT CITY FROM STATION WHERE CITY LIKE 'A%' or CITY LIKE 'E%' or CITY LIKE 'I%' or CITY LIKE 'O%' or CITY LIKE 'U%';**
+
+ ## Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.
+
+ ![sql12](https://github.com/user-attachments/assets/b3560d9e-7134-4843-9a52-7a98e28a528a)
+
+ **SELECT DISTINCT(CITY) FROM STATION WHERE CITY LIKE '%a' OR CITY LIKE '%e' OR CITY LIKE '%i' OR CITY LIKE '%o' 
+  OR CITY LIKE '%u';**
+
+ ## Query the list of CITY names from STATION which have vowels (i.e., a, e, i, o, and u) as both their first and last characters. Your result cannot contain duplicates.
+
+![sql13](https://github.com/user-attachments/assets/4187d30f-56d2-4959-9fec-e8988062fb09)
+
+**SELECT DISTINCT CITY FROM STATION WHERE (CITY LIKE 'A%' OR CITY LIKE 'E%' OR CITY LIKE 'I%' OR CITY LIKE 'O%' OR CITY LIKE 'U%') AND (CITY LIKE '%a' OR CITY LIKE '%e' OR CITY LIKE '%i' OR CITY LIKE '%o' OR CITY LIKE '%u')order by CITY;**
+ 
