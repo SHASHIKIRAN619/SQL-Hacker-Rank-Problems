@@ -94,3 +94,16 @@
 
 **SELECT DISTINCT CITY FROM STATION WHERE UPPER(SUBSTR(CITY,LENGTH(CITY),1)) NOT IN ('A','E','I','O','U') AND LOWER(SUBSTR(CITY,LENGTH(CITY),1)) NOT IN ('a','e','i','o','u');**
 
+## Query the list of CITY names from STATION that either do not start with vowels or do not end with vowels. Your result cannot contain duplicates.
+
+![SQL16](https://github.com/user-attachments/assets/844eb9ba-7b52-4a5d-90b4-72ef86bbbfeb)
+
+**SELECT distinct CITY FROM STATION WHERE LOWER(SUBSTR(CITY,1,1)) NOT IN ('a','e','i','o','u') OR LOWER(SUBSTR(CITY,LENGTH(CITY),1)) NOT IN ('a','e','i','o','u');**
+
+## Query the list of CITY names from STATION that do not start with vowels and do not end with vowels. Your result cannot contain duplicates.
+
+![sql17](https://github.com/user-attachments/assets/3f9d3ab7-4f37-4eb7-822b-e6671a0571f9)
+
+**SELECT distinct CITY FROM STATION WHERE lower(SUBSTR(CITY,1,1)) NOT IN ('a','e','i','o','u') AND lower(SUBSTR(CITY,LENGTH(CITY),1)) NOT IN ('a','e','i','o','u');**
+
+
