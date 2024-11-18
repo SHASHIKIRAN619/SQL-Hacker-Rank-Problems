@@ -106,4 +106,16 @@
 
 **SELECT distinct CITY FROM STATION WHERE lower(SUBSTR(CITY,1,1)) NOT IN ('a','e','i','o','u') AND lower(SUBSTR(CITY,LENGTH(CITY),1)) NOT IN ('a','e','i','o','u');**
 
+## Query the Name of any student in STUDENTS who scored higher than  Marks.Order your output by the last three characters of each name. If two or more students both have names ending in the same last three characters (i.e.: Bobby, Robby, etc.), secondary sort them by ascending ID.
+
+![sql18](https://github.com/user-attachments/assets/bdc681e0-9bfd-4265-a1f2-ad83a9fb32a3)
+
+**Select Name from STUDENTS WHERE MARKS>75 ORDER BY RIGHT(NAME,3),ID;**
+
+## Write a query that prints a list of employee names (i.e.: the name attribute) from the Employee table in alphabetical order.
+
+![SQL19](https://github.com/user-attachments/assets/975ab896-5266-4ce8-9ec3-680f85915aa5)
+
+**Select NAME FROM EMPLOYEE ORDER BY NAME;**
+
 
