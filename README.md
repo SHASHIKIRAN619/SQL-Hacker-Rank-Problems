@@ -124,4 +124,11 @@
 
 **SELECT NAME FROM EMPLOYEE WHERE SALARY > 2000 AND MONTHS <10 ORDER BY EMPLOYEE_ID;**
 
+## Query a count of the number of cities in CITY having a Population larger than 100,000.
+
+![sql18](https://github.com/user-attachments/assets/9e6964ff-3bdc-40d9-b4fd-58a91c534e44)
+
+**SELECT COUNT(*) FROM CITY WHERE POPULATION>100000;**
+
+
 
