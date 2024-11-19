@@ -130,5 +130,22 @@
 
 **SELECT COUNT(*) FROM CITY WHERE POPULATION>100000;**
 
+## Query the total population of all cities in CITY where District is California.
+
+![SQL20](https://github.com/user-attachments/assets/7f10b908-2514-44ad-9692-2ebee973a9a9)
+
+**SELECT SUM(POPULATION) FROM CITY WHERE DISTRICT ='California';**
+
+## Query the average population of all cities in CITY where District is California.
+
+![SQL20](https://github.com/user-attachments/assets/7f10b908-2514-44ad-9692-2ebee973a9a9)
+
+**SELECT AVG(POPULATION) FROM CITY WHERE DISTRICT = 'California';**
+
+## Query the average population for all cities in CITY, rounded down to the nearest integer.
+
+![SQL20](https://github.com/user-attachments/assets/7f10b908-2514-44ad-9692-2ebee973a9a9)
+
+**SELECT FLOOR(AVG(POPULATION)) FROM CITY;**
 
 
