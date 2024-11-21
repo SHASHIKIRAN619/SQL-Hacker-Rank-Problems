@@ -148,4 +148,18 @@
 
 **SELECT FLOOR(AVG(POPULATION)) FROM CITY;**
 
+## Query the sum of the populations for all Japanese cities in CITY. The COUNTRYCODE for Japan is JPN.
+
+![SQL21](https://github.com/user-attachments/assets/e7c7f129-3b41-4617-963a-6ce20ed6daf4)
+
+**SELECT SUM(POPULATION) FROM CITY WHERE COUNTRYCODE='JPN';**
+
+## Query the difference between the maximum and minimum populations in CITY.
+
+![SQL21](https://github.com/user-attachments/assets/e7c7f129-3b41-4617-963a-6ce20ed6daf4)
+
+**SELECT MAX(POPULATION) - MIN(POPULATION) FROM CITY;**
+
+
+
 
