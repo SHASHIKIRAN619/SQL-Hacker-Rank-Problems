@@ -160,6 +160,15 @@
 
 **SELECT MAX(POPULATION) - MIN(POPULATION) FROM CITY;**
 
+## Samantha was tasked with calculating the average monthly salaries for all employees in the EMPLOYEES table, but did not realize her keyboard's  key was broken until after completing the calculation. She wants your help finding the difference between her miscalculation (using salaries with any zeros removed), and the actual average salary.
+
+![sql22](https://github.com/user-attachments/assets/62c54a64-bf72-4291-8fd6-ea080b07bc8f)
+
+**SELECT CEIL(AVG(Salary)-AVG(REPLACE(Salary,'0',''))) FROM EMPLOYEES;**
+
+
+
+
 
 
 
