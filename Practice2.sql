@@ -1,4 +1,4 @@
-USE NEWDATA;
+USE NewData;
 #11). Get all employee detail from EmployeeDetail table whose "FirstName" not start with any single character between 'a-p'
        SELECT FIRSTNAME FROM EMPLOYEEDETAIL WHERE FIRSTNAME LIKE '[^a-p]%';
 #12). Get all employee detail from EmployeeDetail table whose "Gender" end with 'le' and contain 4 letters. The Underscore(_) Wildcard Character represents any single character
